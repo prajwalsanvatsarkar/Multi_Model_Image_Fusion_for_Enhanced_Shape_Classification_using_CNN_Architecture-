@@ -1,0 +1,21 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & weights
+imagefusion_dataset/
+Imagefusion_Dataset/
+Weighted_files/
+weights/
+*.pth
+*.pt
+*.zip
+*.7z
+*.rar
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
