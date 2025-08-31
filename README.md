@@ -1,18 +1,19 @@
-# 1. Introduction
+# Introduction
 
-This project tests whether combining multiple images (image fusion) can improve
-shape classification. Each sample has three 32×32 views of the same object
-(circle, square, triangle, or pentagon). We:
+This project investigates whether fusing multiple views improves shape classification with LeNet-5.
+Each sample contains three 32×32 views (gradient, noise, spotlight) of one shape (circle, square,
+triangle, pentagon).
 
-- Train a LeNet-5 CNN on each single view (img1, img2, img3)
-- Do early (pixel-level) fusion (avg/max/min, Laplacian pyramid, PCA) and train a CNN on the fused images
-- Do late (decision-level) fusion via majority voting across the three single-view models
-- Compare accuracies and show a confusion matrix
+The task is organized into four main steps:
+1) Dataset Overview — understand the three aligned views per sample.
+2) Step 1: Change LeNet-5 Architecture — adjust a compact backbone used across all experiments.
+3) Step 2: Train & Evaluate Without Fusion — train three single-view models (img1, img2, img3) and report confusion matrices.
+4) Step 3: Implement Fusion Strategy — apply low-level (avg/max/min) and high-level (majority voting) fusion, then compare to baselines.
 
-Idea: each view carries different cues; fusing them can keep useful edges and reduce noise,
-often giving better results than any single view alone.
+Finally, we compare accuracies and visualize results with confusion matrices.
 
-# 2. Dataset Overview :
+
+# Dataset Overview :
 
 Image 1 - Gradient background
 
