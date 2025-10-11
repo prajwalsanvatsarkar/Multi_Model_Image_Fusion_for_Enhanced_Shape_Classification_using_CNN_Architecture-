@@ -1,7 +1,7 @@
 # Introduction
 
 This project investigates whether fusing multiple views improves shape classification with LeNet-5.
-Each sample contains three 32×32 views (gradient, noise, spotlight) of one shape (circle, square,
+Each sample contains three 32×32 views (gradient, noise, spotlight) of shapes (circle, square,
 triangle, pentagon).
 
 The task is organized into four main steps:
