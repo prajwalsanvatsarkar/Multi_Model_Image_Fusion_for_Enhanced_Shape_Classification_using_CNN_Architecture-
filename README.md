@@ -44,7 +44,7 @@ c. Pixel-based Minimum Fusion: It involves directly combining the pixel values o
 
 ![Low_level_fusion](https://github.com/user-attachments/assets/1cdf2c16-b48d-4e64-b826-dbdf7760794b)
 
-2. High Level Fusion : • Majority Voting : Among all four models, the final classification is decided by majority vote. In this method, the predicted class that receives the most votes from the individual models is selected as the final prediction.
+2. High Level Fusion : Majority Voting : Among all four models, the final classification is decided by majority vote. In this method, the predicted class that receives the most votes from the individual models is selected as the final prediction.
 
 # Results
 ![Results with confusion matrix](https://github.com/user-attachments/assets/98f2dd6e-a350-47dc-a23d-1a2ee7e347e3)
