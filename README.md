@@ -5,10 +5,10 @@ Each sample contains three 32×32 views (gradient, noise, spotlight) of shapes (
 triangle, pentagon).
 
 The task is organized into four main steps:
-1) Dataset Overview — understand the three aligned views per sample.
-2) Step 1: Change LeNet-5 Architecture — adjust a compact backbone used across all experiments.
-3) Step 2: Train & Evaluate Without Fusion — train three single-view models (img1, img2, img3) and report confusion matrices.
-4) Step 3: Implement Fusion Strategy — apply low-level (avg/max/min) and high-level (majority voting) fusion, then compare to baselines.
+1) Dataset Overview - understand the three aligned views per sample.
+2) Step 1: Change LeNet-5 Architecture - adjust a compact backbone used across all experiments.
+3) Step 2: Train & Evaluate Without Fusion - train three single-view models (img1, img2, img3) and report confusion matrices.
+4) Step 3: Implement Fusion Strategy - apply low-level (avg/max/min) and high-level (majority voting) fusion, then compare to baselines.
 
 Finally, we compare accuracies and visualize results with confusion matrices.
 
