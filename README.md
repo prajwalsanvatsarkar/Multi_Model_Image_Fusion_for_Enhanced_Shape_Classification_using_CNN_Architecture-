@@ -27,13 +27,13 @@ Evaluation:
 
 a. Pixel-based Average Fusion: It involves directly combining the pixel values of the three images and take average value to create a new, fused image.
 
-b. Pixel-based Maximum Fusion: It involves directly combining the pixel values of the three images and take maximum value to create a new, fused image.
+b. Pixel-based Maximum Fusion: It involves directly selecting the maximum pixel value amoung the pixel values of the all three images to create a new, fused image.
 
-c. Pixel-based Minimum Fusion: It involves directly combining the pixel values of the three images and take minimum value to create a new, fused image.
+c. Pixel-based Minimum Fusion: It involves directly selecting the minimum pixel value amoung the pixel values of the all three images to create a new, fused image.
 
 ![Low_level_fusion](https://github.com/user-attachments/assets/1cdf2c16-b48d-4e64-b826-dbdf7760794b)
 
-2. High Level Fusion : Majority Voting : Among all four models, the final classification is decided by majority vote. In this method, the predicted class that receives the most votes from the individual models is selected as the final prediction.
+2. High Level Fusion (Majority Voting) : Among all four models, the final classification is decided by majority vote. In this method, the predicted class that receives the most votes from the individual models is selected as the final prediction.
 
 # Results
 ![Results with confusion matrix](https://github.com/user-attachments/assets/98f2dd6e-a350-47dc-a23d-1a2ee7e347e3)
