@@ -1,17 +1,6 @@
 # Introduction
 
-This project investigates whether fusing multiple views improves shape classification with LeNet-5.
-Each sample contains three 32×32 views (gradient, noise, spotlight) of shapes (circle, square,
-triangle, pentagon).
-
-The task is organized into four main steps:
-1) Dataset Overview - understand the three aligned views per sample.
-2) Step 1: Change LeNet-5 Architecture - adjust a compact backbone used across all experiments.
-3) Step 2: Train & Evaluate Without Fusion - train three single-view models (img1, img2, img3) and report confusion matrices.
-4) Step 3: Implement Fusion Strategy - apply low-level (avg/max/min) and high-level (majority voting) fusion, then compare to baselines.
-
-Finally, we compare accuracies and visualize results with confusion matrices.
-
+In this task, a low and high level fusion strategy is used to improve the classification performance of a synthetic dataset. The 1000 instances in the dataset each have three 32x32 images that represent one of the four geometric shapes (pentagon, circle, square, or triangle). Three distinct background types—gradient, noise, and spotlight are used to create the images. To classify these shapes, a convolutional neural network called LeNet 5 is implemented. To compare performance improvements, 3 LeNet5 models are trained and evaluated on the images without fusion at first and then another LeNet5 model is trained and evaluated on fused image dataset obtained from the defined fusion strategy. Finally the increased accuracy of the CNN model is achieved for the shape classification task. At the end confusion matrices are plot to demonstrate these accuracies.
 
 # Dataset Overview :
 
