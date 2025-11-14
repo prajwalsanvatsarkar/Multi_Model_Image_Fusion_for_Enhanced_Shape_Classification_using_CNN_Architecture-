@@ -24,12 +24,7 @@ Evaluation:
 
 # Step 3: Implementing fusion Strategy
 1. Low-Level Fusion:
-
-a. Pixel-based Average Fusion: It involves directly combining the pixel values of the three images and take average value to create a new, fused image.
-
-b. Pixel-based Maximum Fusion: It involves directly selecting the maximum pixel value amoung the pixel values of the all three images to create a new, fused image.
-
-c. Pixel-based Minimum Fusion: It involves directly selecting the minimum pixel value amoung the pixel values of the all three images to create a new, fused image.
+ Pixel-based Average Fusion: It involves directly combining the pixel values of the three images and take average value to create a new, fused image.
 
 ![Low_level_fusion](https://github.com/user-attachments/assets/1cdf2c16-b48d-4e64-b826-dbdf7760794b)
 
